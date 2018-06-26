@@ -1,0 +1,14 @@
+{
+  "name": "oil",
+  "version": "1.0.0",
+  "description": "a template for shining3d font-end project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "oil"
+  ],
+  "author": "qsm",
+  "license": "ISC"
+}
