@@ -1,13 +1,13 @@
 {
   "name": "yyoil-qiansimin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a template for front end",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "nodepath": "./index.js"
+    "oil": "./index.js"
   },
   "repository": {
     "type": "git",
