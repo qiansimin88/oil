@@ -16,7 +16,7 @@ module.exports = function () {
 
             initFileList.map( _ => {
                 util.read( _ ).then( steam => {
-                    fs.outputFile( process.env.PWD + '/' + _ , data, err => {
+                    fs.outputFile( process.env.PWD + '/' + _ , steam, err => {
                         if( err ) throw new Error( err );
                         progress.tick();
                     } )
